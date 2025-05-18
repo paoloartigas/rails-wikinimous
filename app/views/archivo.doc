@@ -1,0 +1,28 @@
+edit
+<!--<%= render "articles/form", article: @article %>
+<%= link_to "Back to articles", articles_path %-->
+
+new
+<!--<%= render "articles/form", article: @article %>
+<%= link_to "Back to the articles", articles_path %-->
+
+form
+  <!--<%= form_with model: article do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :content %>
+  <%= f.text_field :content %>
+  <%= f.submit %>
+  <% end %-->
+
+show
+<!--<h1><%= @article.title %></h1>
+<p><%= @article.content %></p>
+<%= link_to "Back to articles", articles_path %>
+<%= link_to "Edit article", edit_article_path %>
+<%= link_to "Delete",
+  article_path(@article),
+  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
+%=-->
+
+mis refenrecias de mi codigo funcional...
